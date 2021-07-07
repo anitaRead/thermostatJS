@@ -15,8 +15,7 @@ class Thermostat {
             throw new Error ("Maximum temperature is 32 degrees!");
         } else {
             this.temperature++;
-        }
-        
+        };
         
     };
 
