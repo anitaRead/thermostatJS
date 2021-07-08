@@ -66,7 +66,6 @@ describe ("Thermostat", () => {
         });
     });
 
-    // < 18 is low-usage, <= 25 is medium-usage, anything else is high-usage.
     describe("Energy usage", () => {
 
         it("checks for low usage with temperature below 18", () => {
